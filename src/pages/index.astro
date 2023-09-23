@@ -1,6 +1,6 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 ---
 
 <Layout title="ALOPB Hack Club">
@@ -36,7 +36,7 @@ import Card from '../components/Card.astro';
 		<h1>ALOPB <span class="text-gradient">Hack Club</span></h1>
 		<p class="instructions">
 			👋 Heja! Super, że tutaj jesteś!<br />
-			<i>🚧 Strona w konstrukcji 🚧 </i>
+			<i>🚧 Strona w konstrukcji 🚧</i>
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
@@ -55,11 +55,18 @@ import Card from '../components/Card.astro';
 				body="Strona organizacji Hack Club."
 			/>
 			<Card
-				href="https://hackclub.com/slack/"
-				title="📡 Hack Club Slack"
-				body="Dołącz do społeczności klubów z całego świata."
+				href="/docs"
+				title="📚 Dokumentacja"
+				body="Zobacz najnowszą klubową dokumnetację."
 			/>
-			<iframe src="https://discord.com/widget?id=1153664989756932116&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+			<iframe
+				src="https://discord.com/widget?id=1153664989756932116&theme=dark"
+				width="350"
+				height="500"
+				allowtransparency="true"
+				frameborder="0"
+				sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+			></iframe>
 		</ul>
 	</main>
 </Layout>
@@ -100,7 +107,10 @@ import Card from '../components/Card.astro';
 	.instructions {
 		margin-bottom: 2rem;
 		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		background: linear-gradient(
+			rgba(var(--accent-dark), 66%),
+			rgba(var(--accent-dark), 33%)
+		);
 		padding: 1.5rem;
 		border-radius: 8px;
 	}
