@@ -1,7 +1,7 @@
 ---
 title: Strona testowa
 body: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-layout: ../../layouts/Layout.astro
+layout: ../../layouts/DocumentLayout.astro
 ---
 
 # Strona testowa
